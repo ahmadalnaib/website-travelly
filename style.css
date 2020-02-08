@@ -16,6 +16,11 @@ html {
   cursor: pointer;
 }
 
+body{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7;
+}
+
 li,button,label,input,p{
   font-size:2rem;
 }
@@ -78,7 +83,7 @@ a:hover{
   text-align:center;
   font-size:2rem;
   padding:1rem;
-
+font-weight: normal;
 }
 
 .btn {
@@ -91,6 +96,11 @@ a:hover{
   background :linear-gradient(rgba(255, 255, 255,0.4),transparent);
   color:#fff;
   cursor: pointer;
+  font-family: 'Kaushan Script', cursive;
+}
+
+#logo{
+  font-family: 'Kaushan Script', cursive;
 }
 
 .btn:hover{
