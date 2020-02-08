@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+#logo {
+  font-size:2.6rem;
+  cursor: pointer;
+}
+
+li,button,label,input,p{
+  font-size:2rem;
+}
+a{
+  color:#fff;
+  text-decoration:none;
+}
+
+
+/* navbar */
+
+.main-header{
+  background:#131c27;
+  color: #fff;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding:1rem;
+  min-height: 10vh;
+}
+
+nav ul {
+  display:flex;
+  flex-direction:row;
+  
+}
+
+a{
+  margin:1rem;
+  padding:3rem;
+}
+a:hover{
+  background :linear-gradient(rgba(255, 136, 0,0.5),transparent);
+}
+
+/* section hero */
+
+
+ .hero {
+  background:linear-gradient(rgba(0, 0, 0,0.5),transparent),url("./img/landing-page.jpg") no-repeat center center/cover;
+  min-height: 90vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+
+}
+
+.hero-title{
+  font-size:4rem;
+  text-align: center;
+}
+.lead {
+  text-align:center;
+  font-size:2rem;
+  padding:1rem;
+
+}
+
+.btn {
+  margin-top: 1rem;
+  border:none;
+  padding:0.70rem 1rem;
+  border-radius: 0.40rem;
+  display:block;
+  width: 50%;
+  background :linear-gradient(rgba(255, 255, 255,0.4),transparent);
+  color:#fff;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background :linear-gradient(rgba(255, 136, 0,0.5),transparent);
+} 
+
+
+
