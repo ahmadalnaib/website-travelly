@@ -220,3 +220,50 @@ padding:1rem;
   font-size:1.5rem;
   padding: 10px;
 }
+
+/* form */
+
+
+#contact {
+  min-height:100vh;
+  background:linear-gradient(rgba(0, 0, 0,0.5),transparent),url('/img/contact-mountain.png') no-repeat center center/cover;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.form-content{
+  background:rgba(19 , 28, 39,0.8);
+  width:60%;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.form-head{
+  text-align: center;
+  padding:4rem;
+}
+.form-content h2 {
+  font-size:2rem;
+}
+
+.name-form,
+.email-form{
+  padding:2rem;
+  text-align: center;
+}
+
+.form-content input{
+  padding:1rem;
+  width:100%;
+  text-align: center;
+}
+
+.btnnn{
+  display:inline-block;
+  border:none;
+  padding:10px 40px;
+  width:100%;
+  cursor: pointer;
+  border-radius: 20px;
+}
